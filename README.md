@@ -1,6 +1,6 @@
-# 💖 The DandyHacks 2024 website
+# 💖 The DandyHacks 2025 website
 
-This is the website for DandyHacks 2024, the 12th run of the University of
+This is the website for DandyHacks 2025, the 12th run of the University of
 Rochester's premier hackathon. Go Yellowjackets! 🐝
 
 ## 🍽️ Tech stack
