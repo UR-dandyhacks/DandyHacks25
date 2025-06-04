@@ -1,11 +1,10 @@
-# 💖 The DandyHacks 2025 website
+#  The DandyHacks 2025 website
 
 This is the website for DandyHacks 2025, the 12th run of the University of
-Rochester's premier hackathon. Go Yellowjackets! 🐝
+Rochester's hackathon. Go Yellowjackets! 🐝
 
 ## 🍽️ Tech stack
-
-Our tech stack is optimized for the best speed:
+tech stack
 
 - HTML
 - TailwindCSS
