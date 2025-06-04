@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cerco";
+  font-weight: 700;
+  src: url(fonts/cerco/CercoDEMO-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Cerco";
+  font-weight: 700;
+  font-style: italic;
+  src: url(fonts/cerco/CercoDEMO-BoldItalic.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Sonorous";
+  font-weight: 400;
+  src: url(fonts/sonorous/Sonorous.otf) format("opentype");
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display;
+  }
+
+  .white-outline {
+    filter: drop-shadow(8px 0 0 white) drop-shadow(0 8px 0 white)
+      drop-shadow(-8px 0 0 white) drop-shadow(0 -8px 0 white);
+  }
+}
+
+@layer utilities {
+  nav {
+    backdrop-filter: blur(10px);
+  }
+
+  details {
+    @apply lg:w-[923px] bg-ice-dream text-bowen-blue rounded-[30px] pointer-events-auto;
+  }
+
+  details summary {
+    @apply flex items-center justify-between text-2xl font-bold hover:cursor-pointer after:float-right marker:content-none after:content-none after:w-9 after:h-9 after:justify-self-end py-2.5 lg:px-12 px-4;
+  }
+
+  details p {
+    @apply text-2xl py-2.5 lg:px-12 px-4;
+  }
+
+  canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .hover-scale,
+  details {
+    @apply hover:scale-105 transition-transform origin-center;
+  }
+}
