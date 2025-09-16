@@ -20,10 +20,10 @@ module.exports = {
         "center-bottom": "center bottom",
       },
       colors: {
-        fuchsia: "#b52b1bf1",
+        fuchsia: "#fffffff1",
         "california-peach": "#ffbd6a",
         "dried-magenta": "#c93221ff",
-        "bowen-blue": "#1467a9",
+        "bowen-blue": 'rgb(107, 154, 85)',
         "ice-dream": "#eaece1",
       },
     },
