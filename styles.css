@@ -1,3 +1,20 @@
+/* Container for about section with rounded background */
+.about-bg-box {
+  background: rgba(234, 236, 225, 0.85); /* light porcelain, semi-transparent */
+  border-radius: 32px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.08);
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  max-width: 900px;
+}
+/* Dimmer dried magenta for buttons */
+.bg-dried-magenta-dim {
+  --tw-bg-opacity: 1;
+  background-color: rgb(169 123 132 / var(--tw-bg-opacity));
+}
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
@@ -1951,7 +1968,7 @@ h1,
 
 .bg-fuchsia {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 116 255 / var(--tw-bg-opacity));
+  background-color: rgb(190 57 42 / var(--tw-bg-opacity));
 }
 
 .bg-ice-dream {
@@ -2355,7 +2372,7 @@ h1,
 
 .text-fuchsia {
   --tw-text-opacity: 1;
-  color: rgb(255 116 255 / var(--tw-text-opacity));
+  color: rgb(190 57 42 / var(--tw-text-opacity));
 }
 
 .text-ice-dream {
